@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Martian Bull mark — hand-drawn line art, no external assets -->
+  <g fill="none" stroke="#c9a227" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 18 C39 18 44 23 44 29 L42 40 C41 48 37 53 32 53 C27 53 23 48 22 40 L20 29 C20 23 25 18 32 18 Z"/>
+    <path d="M21 25 C13 23 8 17 8 9 C16 11 21 16 24 22"/>
+    <path d="M43 25 C51 23 56 17 56 9 C48 11 43 16 40 22"/>
+  </g>
+  <circle cx="27" cy="31" r="2" fill="#c9a227"/>
+  <circle cx="37" cy="31" r="2" fill="#c9a227"/>
+  <path d="M32 20 L35 24.5 L32 29 L29 24.5 Z" fill="#c9a227"/>
+</svg>
