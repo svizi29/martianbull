@@ -1,71 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<!-- ==========================================================================
-  Support page — the URL Apple (App Store Connect "Support URL") and Google
-  Play ("Support" contact) require.
-  TODO(owner): replace contact@martianbull.example with the real address.
-  NAME SWAP: "Ave Morituri" is a working title — see note in /index.html.
-=========================================================================== -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Support — Martian Bull</title>
-  <meta name="description" content="Support for Ave Morituri and other Martian Bull games: how to reach us, what to include in a bug report, and answers to common questions.">
-  <meta property="og:site_name" content="Martian Bull">
-  <meta property="og:title" content="Support — Martian Bull">
-  <meta property="og:description" content="How to reach Martian Bull for help with our games.">
-  <meta property="og:type" content="website">
-  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../assets/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Support — Martian Bull</title>
+<meta name="description" content="Support for Martian Bull games. How to reach us, what to include in a bug report, and answers to common questions about Avete Morituri.">
+<meta property="og:title" content="Support — Martian Bull">
+<meta property="og:description" content="Support for Martian Bull games. How to reach us, what to include in a bug report, and answers to common questions about Avete Morituri.">
+<meta property="og:image" content="https://martianbull.com/assets/media/gameplay_poster.jpg">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://martianbull.com/support/">
+<meta name="theme-color" content="#0F0C09">
+<link rel="icon" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-
-<header class="site-head">
-  <div class="wrap head-row">
-    <a class="brand" href="../index.html">
-      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-        <g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M32 18 C39 18 44 23 44 29 L42 40 C41 48 37 53 32 53 C27 53 23 48 22 40 L20 29 C20 23 25 18 32 18 Z"/>
-          <path d="M21 25 C13 23 8 17 8 9 C16 11 21 16 24 22"/>
-          <path d="M43 25 C51 23 56 17 56 9 C48 11 43 16 40 22"/>
-        </g>
-        <circle cx="27" cy="31" r="2" fill="currentColor"/>
-        <circle cx="37" cy="31" r="2" fill="currentColor"/>
-        <path d="M32 20 L35 24.5 L32 29 L29 24.5 Z" fill="currentColor"/>
-      </svg>
-      <span class="brand-name">Martian&nbsp;Bull</span>
-    </a>
-    <nav class="site-nav" aria-label="Site">
-      <a href="../index.html">Studio</a>
-      <a href="../ave-morituri/index.html">Ave&nbsp;Morituri</a>
-      <a href="index.html" aria-current="page">Support</a>
-      <a href="../privacy/index.html">Privacy</a>
-    </nav>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="nav" aria-label="Site">
+  <a class="brand" href="../"><img src="../assets/media/mb_logo.png" alt="Martian Bull"></a>
+  <div class="links">
+    <a href="../#games">Games</a>
+    <a href="../avete-morituri/">Avete Morituri</a>
+    <a href="../#about">Studio</a>
+    <a href="../support/" aria-current="page">Support</a>
+    <a href="../#contact">Contact</a>
   </div>
-</header>
+</nav>
 
 <main id="main">
-
-  <div class="hero wrap" style="padding-bottom:1.5rem;">
-    <span class="eyebrow">Martian Bull</span>
+  <div class="page-head wrap">
+    <p class="eyebrow">Martian Bull</p>
     <h1>Support</h1>
-    <p class="lede" style="margin:0 auto;">Help with our games, straight from the people who made them.</p>
+    <p class="lede">Help with our games, straight from the people who made them.</p>
   </div>
-
-  <section aria-labelledby="status">
-    <div class="wrap prose">
-      <div class="notice">
-        <p><strong>Current status:</strong> <em>Ave Morituri</em> (working
-        title) is in development and has not been released. There is no public
+  <div class="wrap legal">
+    <div class="prose">
+      <div class="notice panel">
+        <p><strong>Current status:</strong> <em>Avete Morituri</em> is in development and has not been released. There is no public
         build to download yet, and nothing on any store is ours. When that
         changes, this page will say so.</p>
       </div>
 
-      <h2 id="status">Getting help</h2>
+      <h2 id="status" class="display">Getting help</h2>
       <p>Email
-      <!-- TODO(owner): replace placeholder address before publishing -->
-      <a class="email" href="mailto:contact@martianbull.example">contact@martianbull.example</a>
+      <a class="email" href="mailto:contact@martianbull.com">contact@martianbull.com</a>
       and a human &mdash; one of the three of us &mdash; will read it. We aim
       to reply within a few working days.</p>
 
@@ -78,7 +59,7 @@
         <li><strong>A screenshot or screen recording</strong>, if you have one</li>
       </ul>
 
-      <h2 id="faq">Common questions</h2>
+      <h2 id="faq" class="display">Common questions</h2>
 
       <details>
         <summary>When is the game out?</summary>
@@ -125,29 +106,27 @@
         honest picture.</p></div>
       </details>
     </div>
-  </section>
-
-</main>
-
-<footer class="site-foot">
-  <div class="wrap">
-    <svg class="foot-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M32 18 C39 18 44 23 44 29 L42 40 C41 48 37 53 32 53 C27 53 23 48 22 40 L20 29 C20 23 25 18 32 18 Z"/>
-        <path d="M21 25 C13 23 8 17 8 9 C16 11 21 16 24 22"/>
-        <path d="M43 25 C51 23 56 17 56 9 C48 11 43 16 40 22"/>
-      </g>
-    </svg>
-    <nav class="foot-nav" aria-label="Footer">
-      <a href="../index.html">Studio</a>
-      <a href="../ave-morituri/index.html">Ave Morituri</a>
-      <a href="index.html">Support</a>
-      <a href="../privacy/index.html">Privacy</a>
-    </nav>
-    <p class="fine">&copy; MMXXVI Martian Bull. All rights reserved.</p>
-    <p class="fine"><em>Ave Morituri</em> is a working title and may change.</p>
   </div>
+</main>
+<footer>
+  <div class="wrap grid">
+    <div>
+      <img class="mark" src="../assets/media/mb_logo.png" alt="Martian Bull">
+      <p>Independent game studio.<br>Ancient essence. Far future.</p>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <a href="../">Home</a>
+      <a href="../avete-morituri/">Avete Morituri</a>
+      <a href="../support/">Support</a>
+      <a href="../privacy/">Privacy</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:contact@martianbull.com">contact@martianbull.com</a>
+    </div>
+  </div>
+  <div class="wrap fine">&copy; MMXXVI Martian Bull. Avete Morituri is in development; nothing is on any store yet. All footage captured on device.</div>
 </footer>
-
 </body>
 </html>

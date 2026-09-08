@@ -1,117 +1,120 @@
 <!doctype html>
-<!-- Martian Bull studio site. Layout follows Gasper's mockups in
-     "Documents/Martian Bull/Website design". One project card today; the
-     .cards grid takes more <article class="card"> blocks as games ship.
-     NAME SWAP: "Ave Morituri" is the working title — grep it to rename. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Martian Bull — Game Studio</title>
-<meta name="description" content="Martian Bull is an independent game studio. First title: Ave Morituri, a sci-fi Roman arena shooter for mobile.">
+<meta name="description" content="Martian Bull is an independent game studio. First title: Avete Morituri, a gladiator arena shooter set in a futuristic Rome, built on Unreal Engine 5 for mobile.">
 <meta property="og:title" content="Martian Bull — Game Studio">
-<meta property="og:image" content="assets/media/gameplay_poster.jpg">
-<link rel="icon" href="assets/favicon.svg">
+<meta property="og:description" content="Martian Bull is an independent game studio. First title: Avete Morituri, a gladiator arena shooter set in a futuristic Rome, built on Unreal Engine 5 for mobile.">
+<meta property="og:image" content="https://martianbull.com/assets/media/gameplay_poster.jpg">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://martianbull.com/">
+<meta name="theme-color" content="#0F0C09">
+<link rel="icon" href="./assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-
-<nav class="nav">
-  <a class="brand" href="./"><img src="assets/media/mb_logo.png" alt="Martian Bull"></a>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="nav" aria-label="Site">
+  <a class="brand" href="./"><img src="./assets/media/mb_logo.png" alt="Martian Bull"></a>
   <div class="links">
-    <a href="#projects">Projects</a>
-    <a href="#about">About</a>
-    <a href="ave-morituri/">Ave Morituri</a>
-    <a href="#contact">Contact</a>
+    <a href="./#games">Games</a>
+    <a href="./avete-morituri/">Avete Morituri</a>
+    <a href="./#about">Studio</a>
+    <a href="./support/">Support</a>
+    <a href="./#contact">Contact</a>
   </div>
 </nav>
 
-<header class="hero">
-  <video autoplay muted loop playsinline poster="assets/media/hero_poster.jpg">
+<header class="hero" id="main">
+  <video autoplay muted loop playsinline poster="assets/media/hero_poster.jpg" aria-hidden="true">
     <source src="assets/media/hero.mp4" type="video/mp4">
   </video>
   <div class="shade"></div>
   <div class="content">
-    <h1>MARTIAN BULL</h1>
-    <p>An independent studio building fast, brutal multiplayer worlds — ancient essence, far future.</p>
-    <a class="btn solid" href="ave-morituri/">See the game</a>
+    <p class="eyebrow">Independent studio &middot; est. MMXXV</p>
+    <h1>Martian Bull<span class="sub">Ex Marte &middot; Ad Harenam</span></h1>
+    <p>A small team building fast, brutal multiplayer worlds where ancient stone carries modern fire. First gate: a gladiator arena in a Rome five thousand years from now.</p>
+    <div class="actions">
+      <a class="btn ember" href="avete-morituri/">Enter the arena<small>In harenam</small></a>
+      <a class="btn" href="#about">The studio</a>
+    </div>
   </div>
 </header>
 
-<a class="banner" href="ave-morituri/">
+<a class="banner" href="avete-morituri/">
   <div class="bg" style="background-image:url('assets/media/gameplay_poster.jpg')"></div>
-  <div class="tag"><div class="num">_01</div><div class="title display">AVE MORITURI — THE ARENA AWAITS</div></div>
+  <div class="tag"><div class="num">I</div><div class="title display panel">Avete Morituri<small>Gladiator arena &middot; in development</small></div></div>
 </a>
 <a class="banner" href="#contact">
   <div class="bg" style="background-image:url('assets/media/concept_rome.jpg')"></div>
-  <div class="tag"><div class="num">_02</div><div class="title display">FOLLOW THE JOURNEY</div></div>
+  <div class="tag"><div class="num">II</div><div class="title display panel">Follow the journey<small>Sequere</small></div></div>
 </a>
 
 <section class="about" id="about">
   <div class="copy">
-    <p class="eyebrow">About Us</p>
+    <p class="eyebrow">About us &middot; De nobis</p>
     <h2>We build arenas, not menus.</h2>
-    <p>Martian Bull is a small team with one obsession: multiplayer that feels alive on the
-       machine in your pocket. Rome, five thousand years from now — gladiators in powered
-       armour, crowds that react to every kill, and a debt that only blood repays.</p>
+    <p class="latin">Ludi novi &middot; mundi antiqui</p>
+    <p>Martian Bull is a small team with one obsession: multiplayer that feels alive on the machine in your pocket. Rome, five thousand years from now. Gladiators in powered armour, crowds that react to every kill, and a debt that only blood repays.</p>
     <p>Built on Unreal Engine 5. Playable on an iPhone today.</p>
   </div>
-  <div class="art" style="background-image:url('assets/media/concept_arena.jpg')"></div>
+  <div class="art" style="background-image:url('assets/media/concept_arena.jpg')" role="img" aria-label="Concept art of a futuristic Roman arena"></div>
 </section>
 
-<section class="projects" id="projects">
+<section class="projects" id="games">
   <div class="wrap">
-    <h2>Our Game Projects</h2>
-    <p class="lede">One arena open. More gates to come.</p>
+    <p class="eyebrow">Our games &middot; Ludi</p>
+    <h2>One arena open. More gates to come.</h2>
+    <p class="lede">Every title we ship lives here, with its own page, footage and ledger.</p>
     <div class="cards">
-      <article class="card">
-        <a href="ave-morituri/">
+      <article class="card panel lift">
+        <a href="avete-morituri/">
           <div class="art" style="background-image:url('assets/media/gameplay_1.jpg')"></div>
           <div class="inner">
-            <p class="label">Rampage Games</p>
-            <h3>AVE MORITURI</h3>
-            <p>A sci-fi Roman arena shooter for mobile. Six fighters, seven minutes,
-               one ledger — the best kill/death ratio buys back your freedom.</p>
-            <span class="more">ENTER THE ARENA →</span>
+            <p class="eyebrow label">Mobile &middot; Unreal Engine 5</p>
+            <h3>Avete Morituri<span class="sub">Gladiator arena</span></h3>
+            <p>A gladiator arena shooter in a futuristic Rome. Six fighters, seven minutes, one ledger. The sharpest blade buys back the most freedom.</p>
+            <span class="more">Enter the arena &rsaquo;</span>
           </div>
         </a>
       </article>
-      <article class="card ghost">
-        <div>NEXT PROJECT<br>— WHEN IT COMES —</div>
+      <article class="card ghost" aria-label="Placeholder for the next game">
+        <div class="display">The next gate<br>opens when it opens</div>
       </article>
     </div>
   </div>
 </section>
 
 <section class="cta" id="contact">
-  <h2>Let&rsquo;s talk.</h2>
-  <p>Press, partners, or brave test gladiators — the gates open soon.</p>
-  <!-- TODO(owner): replace with the real studio address before publishing -->
-  <a class="btn" href="mailto:contact@martianbull.example">Get in touch</a>
+  <h2>Send word.</h2>
+  <p class="latin">Mitte nuntium</p>
+  <p>Press, partners, or brave test gladiators. The gates open soon; until then, a human reads every message.</p>
+  <a class="btn ember" href="mailto:contact@martianbull.com">contact@martianbull.com</a>
 </section>
-
 <footer>
   <div class="wrap grid">
     <div>
-      <h4>Martian Bull</h4>
+      <img class="mark" src="./assets/media/mb_logo.png" alt="Martian Bull">
       <p>Independent game studio.<br>Ancient essence. Far future.</p>
     </div>
     <div>
       <h4>Links</h4>
       <a href="./">Home</a>
-      <a href="ave-morituri/">Ave Morituri</a>
-      <a href="support/">Support</a>
-      <a href="privacy/">Privacy</a>
+      <a href="./avete-morituri/">Avete Morituri</a>
+      <a href="./support/">Support</a>
+      <a href="./privacy/">Privacy</a>
     </div>
     <div>
       <h4>Contact</h4>
-      <a href="mailto:contact@martianbull.example">contact@martianbull.example</a>
+      <a href="mailto:contact@martianbull.com">contact@martianbull.com</a>
     </div>
   </div>
-  <div class="wrap fine">© 2026 Martian Bull. AVE MORITVRI is a working title. All footage captured on device.</div>
+  <div class="wrap fine">&copy; MMXXVI Martian Bull. Avete Morituri is in development; nothing is on any store yet. All footage captured on device.</div>
 </footer>
-
 </body>
 </html>
