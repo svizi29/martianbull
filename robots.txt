@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /library/
 Sitemap: https://martianbull.com/sitemap.xml
